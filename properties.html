@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Villa Agency - Property Listing by TemplateMo</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <style>
+    .overlay {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .overlay img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .show-image:target+.overlay {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <ul class="info">
+            <li><i class="fa fa-envelope"></i> houseofparadise@company.com</li>
+            <li><i class="fa fa-map"></i> Jalan Kaliurang KM 11,Yogyakarta, Indonesia</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <ul class="social-links">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h3 style="text-align: center;">HOUSE OF PARADISE</h3>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html" style="font-size: 25px">Home</a></li>
+              <li><a href="properties.html" class="active" style="font-size: 20px;">Booking</a></li>
+              <li><a href="#" style="font-size: 20px;">Villa Details</a></li>
+              <li><a href="#" style="font-size: 20px;">Contact Us</a></li>
+              <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Tabel Reservasi Start ***** -->
+  <div class="container mt-5">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>NOMOR KAMAR</th>
+          <th>NAMA PELANGGAN</th>
+          <th>TANGGAL CHECK IN</th>
+          <th>TANGGAL CHECK OUT</th>
+          <th>PEMBAYARAN</th>
+          <th>IDENTITAS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>Budi Santoso</td>
+          <td>2025-08-20</td>
+          <td>2025-08-23</td>
+          <td>Debit</td>
+          <td>KTP</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td>Izuldin Arie</td>
+          <td>2025-08-20</td>
+          <td>2025-08-21</td>
+          <td>Debit</td>
+          <td><a href="#izuldin" class="show-image">KTP</a></td>
+        </tr>
+        </tr>
+  </div>
+  <tr>
+    <td>102</td>
+    <td>Dwi Hartono</td>
+    <td>2025-08-21</td>
+    <td>2025-08-26</td>
+    <td>Transfer</td>
+    <td>Pasport</td>
+  </tr>
+  <tr>
+    <td>102</td>
+    <td>Lina Mariani</td>
+    <td>2025-08-21</td>
+    <td>2025-08-26</td>
+    <td>Transfer</td>
+    <td>KTP</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>103</td>
+    <td>Ahmad Fauzi</td>
+    <td>2025-08-19</td>
+    <td>2025-08-22</td>
+    <td>Transfer</td>
+    <td>Pasport</td>
+  </tr>
+  <tr>
+    <td>101</td>
+    <td>Agus Wijaya</td>
+    <td>2025-08-22</td>
+    <td>2025-08-25</td>
+    <td>Debit</td>
+    <td>Pasport</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>108</td>
+    <td>Ratna Dewi</td>
+    <td>2025-08-29</td>
+    <td>2025-08-30</td>
+    <td>Tunai</td>
+    <td>KTP</td>
+  </tr>
+  <tr>
+    <td>111</td>
+    <td>Maya Fitriani</td>
+    <td>2025-07-12</td>
+    <td>2025-07-14</td>
+    <td>Debit</td>
+    <td>KTP</td>
+  </tr>
+  <tr>
+    <td>107</td>
+    <td>Hendra Pratama</td>
+    <td>2025-03-20</td>
+    <td>2025-03-25</td>
+    <td>Debit</td>
+    <td>Pasport</td>
+  </tr>
+  <tr>
+    <td>109</td>
+    <td>Yoga Wibowo
+    <td>2025-12-22</td>
+    <td>2025-12-26</td>
+    <td>Transfer</td>
+    <td>Pasport</td>
+  </tr>
+  <tr>
+    <td>115</td>
+    <td>Desi Ratnasari</td>
+    <td>2025-08-05</td>
+    <td>2025-08-07</td>
+    <td>Transfer</td>
+    <td>Pasport</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    </tbody>
+    </table>
+    </div>
+
+    <!-- buat gambar ktp -->
+    <div class="overlay" id="izuldin">
+      <button class="close-btn" onclick="closeImage()">×</button>
+      <img src="assets/images/KTP.png" alt="KTP">
+    </div>
+
+    <!-- ***** Tabel Reservasi End ***** -->
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/popup.js"></script>
+
+    <script>
+      function closeImage() {
+        window.location.hash = '';
+      }
+    </script>
+
+</body>
+
+</html>
+
+<!-- <td onclick="showPopup(/assets/images/KTP.png)" style="cursor:pointer; color:blue;">KTP</td> -->
